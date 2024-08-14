@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumTrades - Produkte</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Unsere Produkte</h1>
+    </header>
+
+    <section class="product-section">
+        <h2>Expert Advisor (EA)</h2>
+        <p>Preis: 9.999€</p>
+        <p>(Beschreibung wird nachgetragen)</p>
+        <label>
+            <input type="checkbox" id="vps-option">
+            VPS-Service für 500€/Monat hinzufügen
+        </label>
+        <button class="add-to-cart">In den Warenkorb</button>
+        <button class="buy-now">Sofort kaufen</button>
+    </section>
+
+    <section class="product-section">
+        <h2>Lizenzen</h2>
+        <p>Erste Lizenz: 750€, weitere Lizenzen: 500€</p>
+        <p>(Erklärung wird nachgetragen)</p>
+        <button class="add-to-cart">In den Warenkorb</button>
+        <button class="buy-now">Sofort kaufen</button>
+    </section>
+
+    <section class="product-section">
+        <h2>Management und Upkeeping</h2>
+        <p>Basic Version: 1.499€/Monat</p>
+        <p>Premium Version: 1.999€/Monat</p>
+        <p>Exclusive Version: 4.999€/Monat</p>
+        <p>(Beschreibung wird nachgetragen)</p>
+        <button class="add-to-cart">In den Warenkorb</button>
+        <button class="buy-now">Sofort kaufen</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

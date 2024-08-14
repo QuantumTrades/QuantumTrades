@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumTrades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header mit Slideshow -->
+    <header>
+        <div class="slideshow-container">
+            <div class="slides fade">
+                <img src="https://via.placeholder.com/1200x400/333/fff?text=Finanzen+1" alt="Finanzen 1">
+            </div>
+            <div class="slides fade">
+                <img src="https://via.placeholder.com/1200x400/555/fff?text=Finanzen+2" alt="Finanzen 2">
+            </div>
+            <div class="slides fade">
+                <img src="https://via.placeholder.com/1200x400/777/fff?text=Finanzen+3" alt="Finanzen 3">
+            </div>
+        </div>
+        <a href="#about" class="more-info">Mehr erfahren</a>
+    </header>
+
+    <!-- Firmenvorstellung -->
+    <section id="about" class="about-section">
+        <h2>Über uns</h2>
+        <p>Wir sind QuantumTrades. Wir bieten innovative Trading-Lösungen für den Finanzmarkt.</p>
+        <p>Unser Unternehmen bietet einzigartige Expert Advisors für den Forex-Handel an, die mit fortschrittlichen Algorithmen arbeiten.</p>
+        <div class="history">
+            <div class="popup-trigger" id="finance-market">
+                <img src="https://via.placeholder.com/150" alt="Forex Chart">
+                <p>Was ist der Finanzmarkt?</p>
+            </div>
+            <div class="popup-trigger" id="expert-advisor">
+                <img src="https://via.placeholder.com/150" alt="Expert Advisor">
+                <p>Warum unser Expert Advisor?</p>
+            </div>
+            <div class="popup-trigger" id="popup-1">
+                <img src="https://via.placeholder.com/150" alt="Popup Frage 1">
+                <p>Popup Frage 1</p>
+            </div>
+            <div class="popup-trigger" id="popup-2">
+                <img src="https://via.placeholder.com/150" alt="Popup Frage 2">
+                <p>Popup Frage 2</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Livecharts -->
+    <section class="live-charts">
+        <h2>Livecharts</h2>
+        <iframe src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_a09e5&symbol=BITSTAMP%3ABTCUSD&interval=D&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=F1F3F6&studies=%5B%5D&theme=light&style=1&timezone=Etc%2FUTC&withdateranges=1&hideideas=1&details=1&hidelegend=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=&utm_medium=widget_new&utm_campaign=symbol-overview" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_a09e6&symbol=OANDA%3AXAUUSD&interval=D&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=F1F3F6&studies=%5B%5D&theme=light&style=1&timezone=Etc%2FUTC&withdateranges=1&hideideas=1&details=1&hidelegend=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=&utm_medium=widget_new&utm_campaign=symbol-overview" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_a09e7&symbol=FX%3AEURUSD&interval=D&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=F1F3F6&studies=%5B%5D&theme=light&style=1&timezone=Etc%2FUTC&withdateranges=1&hideideas=1&details=1&hidelegend=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=&utm_medium=widget_new&utm_campaign=symbol-overview" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#">AGB</a> | <a href="#">Impressum</a> | <a href="#">Widerruf</a>
+    </footer>
+
+    <!-- Popup-Fenster -->
+    <div id="popup-finance" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Was ist der Finanzmarkt?</h2>
+            <p>Der Finanzmarkt ist ein globales Netzwerk...</p>
+        </div>
+    </div>
+
+    <div id="popup-expert-advisor" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Warum unser Expert Advisor?</h2>
+            <p>(Text wird nachgetragen)</p>
+        </div>
+    </div>
+
+    <div id="popup-1-content" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Popup Frage 1</h2>
+            <p>(Text wird nachgetragen)</p>
+        </div>
+    </div>
+
+    <div id="popup-2-content" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Popup Frage 2</h2>
+            <p>(Text wird nachgetragen)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantumTrades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header mit Slideshow -->
+    <header>
+        <div class="slideshow-container">
+            <div class="slides fade">
+                <img src="https://via.placeholder.com/1200x400/333/fff?text=Finanzen+1" alt="Finanzen 1">
+            </div>
+            <div class="slides fade">
+                <img src="https://via.placeholder.com/1200x400/555/fff?text=Finanzen+2" alt="Finanzen 2">
+            </div>
+            <div class="slides fade">
+                <img src="https://via.placeholder.com/1200x400/777/fff?text=Finanzen+3" alt="Finanzen 3">
+            </div>
+        </div>
+        <a href="#about" class="more-info">Mehr erfahren</a>
+    </header>
+
+    <!-- Firmenvorstellung -->
+    <section id="about" class="about-section">
+        <h2>Über uns</h2>
+        <p>Wir sind QuantumTrades. Wir bieten innovative Trading-Lösungen für den Finanzmarkt.</p>
+        <p>Unser Unternehmen bietet einzigartige Expert Advisors für den Forex-Handel an, die mit fortschrittlichen Algorithmen arbeiten.</p>
+        <div class="history">
+            <div class="popup-trigger" id="finance-market">
+                <img src="https://via.placeholder.com/150" alt="Forex Chart">
+                <p>Was ist der Finanzmarkt?</p>
+            </div>
+            <div class="popup-trigger" id="expert-advisor">
+                <img src="https://via.placeholder.com/150" alt="Expert Advisor">
+                <p>Warum unser Expert Advisor?</p>
+            </div>
+            <div class="popup-trigger" id="popup-1">
+                <img src="https://via.placeholder.com/150" alt="Popup Frage 1">
+                <p>Popup Frage 1</p>
+            </div>
+            <div class="popup-trigger" id="popup-2">
+                <img src="https://via.placeholder.com/150" alt="Popup Frage 2">
+                <p>Popup Frage 2</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Livecharts -->
+    <section class="live-charts">
+        <h2>Livecharts</h2>
+        <iframe src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_a09e5&symbol=BITSTAMP%3ABTCUSD&interval=D&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=F1F3F6&studies=%5B%5D&theme=light&style=1&timezone=Etc%2FUTC&withdateranges=1&hideideas=1&details=1&hidelegend=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=&utm_medium=widget_new&utm_campaign=symbol-overview" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_a09e6&symbol=OANDA%3AXAUUSD&interval=D&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=F1F3F6&studies=%5B%5D&theme=light&style=1&timezone=Etc%2FUTC&withdateranges=1&hideideas=1&details=1&hidelegend=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=&utm_medium=widget_new&utm_campaign=symbol-overview" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.tradingview.com/widgetembed/?frameElementId=tradingview_a09e7&symbol=FX%3AEURUSD&interval=D&hidesidetoolbar=1&symboledit=1&saveimage=1&toolbarbg=F1F3F6&studies=%5B%5D&theme=light&style=1&timezone=Etc%2FUTC&withdateranges=1&hideideas=1&details=1&hidelegend=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=&utm_medium=widget_new&utm_campaign=symbol-overview" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#">AGB</a> | <a href="#">Impressum</a> | <a href="#">Widerruf</a>
+    </footer>
+
+    <!-- Popup-Fenster -->
+    <div id="popup-finance" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Was ist der Finanzmarkt?</h2>
+            <p>Der Finanzmarkt ist ein globales Netzwerk...</p>
+        </div>
+    </div>
+
+    <div id="popup-expert-advisor" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Warum unser Expert Advisor?</h2>
+            <p>(Text wird nachgetragen)</p>
+        </div>
+    </div>
+
+    <div id="popup-1-content" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Popup Frage 1</h2>
+            <p>(Text wird nachgetragen)</p>
+        </div>
+    </div>
+
+    <div id="popup-2-content" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Popup Frage 2</h2>
+            <p>(Text wird nachgetragen)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
